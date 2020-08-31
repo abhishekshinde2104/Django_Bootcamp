@@ -1,0 +1,1 @@
+Just understanding the functionality of the javascript by connecting it with html and css.
