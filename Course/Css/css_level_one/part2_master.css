@@ -1,0 +1,28 @@
+body{
+  /*background-color: grey;*/
+  background: url(https://cdn.cnn.com/cnnnext/dam/assets/181010131059-australia-best-beaches-cossies-beach-cocos3-full-169.jpg);
+  background-repeat: no-repeat;
+}
+
+div{
+  background: blue;
+  border: orange;
+  border-width: medium;
+  /*border-width:10px
+  by this way we can specify our own border width*/
+  border-style: double;
+}
+
+/*background works the same way as background-color
+when it comes to basic coloring*/
+
+p{
+  color:yellow;
+}
+/*This will color all paragraph elements with yellow
+regardless wether they are inside the div or not*/
+
+span{
+  background-color: red;
+  color: black;
+}

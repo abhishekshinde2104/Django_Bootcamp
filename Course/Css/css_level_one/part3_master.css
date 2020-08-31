@@ -1,0 +1,45 @@
+/*classes inside css start with a dot(.)*/
+
+.firstDiv{
+  color: blue;
+}
+
+.secondDiv{
+  color: red;
+}
+
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+*{
+  color:black;
+}
+
+/*more Selectors on w3cschool.com
+json siblings
+all ul list items near h3*/
+
+h3+ul{
+  border:4px dotted purple;
+  /*we gave the width style and color in one argument*/
+}
+
+/*descendants
+if we want to all anchor tags inside a list*/
+
+li a{
+  color:red;
+}
+
+/*if we want to select particular attributes
+eg.-> if we want to grab an anchor tag inside the list with a
+particular href*/
+
+
+
+li a[href="www.npr.org"]{
+  color: blue;
+  border:5px solid orange;
+}

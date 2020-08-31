@@ -1,0 +1,25 @@
+#top{
+  border:4px solid blue;
+  width:25%;
+  /*25% size of the browser window and will change acc to change
+  in the window*/
+  text-align:center;
+  /*top right bottom left*/
+  /*margin: 10px 20px 100px 400px;*/
+  /*margin-left*/
+  margin: auto;
+
+}
+
+
+/*the border stretches as u stretch the browser window
+sometimes u dont want it and u want a specific percent width of border
+*/
+
+#bottom{
+  border:4px solid red;
+  width: 50%;
+  /*padding is the space between the content and the border itself*/
+  padding: 200px;
+  text-align: center;
+}
